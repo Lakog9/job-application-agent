@@ -1,0 +1,114 @@
+{
+  "personal": {
+    "full_name": "Petros Kogios",
+    "email": "p.kogios@gmail.com",
+    "phone": "+30 6975636902",
+    "location": "Heraklion, Crete, Greece",
+    "linkedin": "linkedin.com/in/petros-kogios",
+    "github": "github.com/Lakog9",
+    "languages": [
+      {"name": "Greek", "level": "Native"},
+      {"name": "English", "level": "C2 (Fluent)"},
+      {"name": "German", "level": "C1 (Fluent)"}
+    ]
+  },
+  "summary": "M.Sc. Bioinformatics candidate at the University of Crete (with FORTH and HCMR), combining hands-on wet-lab experience in cancer genetics and pharmacogenomics with a growing command of Python, machine learning, and applied AI. Trilingual, self-driven learner, ReGeneration 2025 finalist, eager to contribute to AI/data, biotech, or computational biology teams.",
+  "education": [
+    {
+      "degree": "M.Sc. in Bioinformatics",
+      "institution": "University of Crete (in partnership with FORTH and HCMR)",
+      "location": "Heraklion, Greece",
+      "start_date": "Oct 2025",
+      "end_date": "Present",
+      "details": [
+        "Coursework: Linear Algebra, Probability & Statistics, Python, Linux, Biomedical Databases, Molecular Biology & Genetics",
+        "Hands-on projects in dimensionality reduction (custom PCA via eigendecomposition and EM algorithm), statistical learning, and reproducible analysis pipelines on Linux/HPC environments"
+      ]
+    },
+    {
+      "degree": "B.Sc. in Biology (240 ECTS)",
+      "institution": "University of Patras",
+      "location": "Patras, Greece",
+      "start_date": "Oct 2020",
+      "end_date": "Oct 2024",
+      "grade": "7.73/10 (Very Good)",
+      "thesis": "Genetic variants in the EPHX1 gene and susceptibility to Schizophrenia & Major Depressive Disorder"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Research Intern",
+      "organization": "NCSR \"Demokritos\" — Cancer Genetics & Hereditary Cancer Lab",
+      "location": "Athens, Greece",
+      "start_date": "Aug 2024",
+      "end_date": "Sep 2025",
+      "highlights": [
+        "Analyzed Sanger sequencing chromatograms to identify clinically relevant germline variants in hereditary cancer syndromes (BRCA1/2, Lynch syndrome)",
+        "Built detailed patient pedigrees and curated multi-generational family medical histories, directly supporting genetic counselling decisions",
+        "Collaborated with clinicians and geneticists in a multidisciplinary research environment, contributing to an ongoing hereditary cancer registry"
+      ],
+      "skills_used": ["Sanger sequencing", "variant interpretation", "BRCA1/2", "Lynch syndrome", "clinical genetics", "data curation"]
+    },
+    {
+      "title": "Undergraduate Researcher (Thesis)",
+      "organization": "University of Patras — Lab of Pharmacogenomics & Individualized Therapy (Prof. G. Patrinos)",
+      "location": "Patras, Greece",
+      "start_date": "Sep 2023",
+      "end_date": "Oct 2024",
+      "highlights": [
+        "Designed and executed an end-to-end genotyping pipeline: DNA extraction, PCR, RFLP, gel electrophoresis, and Sanger sequencing on patient cohorts",
+        "Identified EPHX1 variants and conducted a genetic association study linking them to Schizophrenia and Major Depressive Disorder susceptibility",
+        "Authored a full scientific report synthesizing experimental results with the pharmacogenomics literature, presented to the departmental research group"
+      ],
+      "skills_used": ["DNA extraction", "PCR", "RFLP", "gel electrophoresis", "Sanger sequencing", "statistical association analysis", "pharmacogenomics"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Personal AI Agent for Automated Job Applications",
+      "tech_stack": ["Python", "Anthropic Claude API", "Prompt Engineering", "Agentic Workflow", "python-docx"],
+      "start_date": "2025",
+      "end_date": "Present",
+      "highlights": [
+        "Designing and building an end-to-end agentic AI system that ingests a stored candidate profile and generates tailored CVs and cover letters per job description, using LLM orchestration and structured prompting",
+        "Implementing modular pipeline (profile parser, JD analyzer, document generator) with the Claude API; integrating evaluation loop to score output relevance and ATS-friendliness",
+        "Demonstrates practical use of Generative AI services (Claude / OpenAI) and prompt engineering for real, measurable productivity gains"
+      ]
+    },
+    {
+      "name": "Deep Learning Classifier for Genomic Variant Pathogenicity",
+      "tech_stack": ["Python", "PyTorch", "scikit-learn", "Pandas", "ClinVar", "gnomAD"],
+      "start_date": "2025",
+      "end_date": "Present",
+      "highlights": [
+        "Designing a supervised deep learning pipeline in PyTorch to classify clinical variants (pathogenic / benign) using annotated features from public genomic databases (ClinVar, gnomAD)",
+        "End-to-end workflow: data preprocessing and feature engineering, model training (MLP / 1D-CNN), evaluation with stratified cross-validation, and benchmarking against classical ML baselines (Random Forest, XGBoost)",
+        "Bridges domain expertise in cancer genetics with modern deep learning — a directly transferable methodology to AI-driven clinical decision support"
+      ]
+    }
+  ],
+  "skills": {
+    "ai_ml": ["PyTorch", "TensorFlow (familiar)", "scikit-learn", "Pandas", "NumPy", "dimensionality reduction (PCA / EM)", "classification", "model evaluation"],
+    "generative_ai": ["Anthropic Claude API", "OpenAI", "Hugging Face", "prompt engineering", "agentic workflows"],
+    "programming": ["Python (proficient)", "R", "SQL", "Bash", "Linux", "Git", "Jupyter"],
+    "bioinformatics": ["NGS data handling", "variant calling and interpretation", "biomedical databases (ClinVar, gnomAD)", "sequence analysis"],
+    "wet_lab": ["DNA extraction", "PCR", "RFLP", "gel electrophoresis", "Sanger sequencing", "chromatogram interpretation"],
+    "quantitative": ["Linear algebra", "probability", "statistics", "statistical learning"]
+  },
+  "awards_and_development": [
+    "ReGeneration Finalist (20th Cycle, 2025) — selected among the top applicants nationwide for Greece's leading graduate career accelerator",
+    "Presenter at the 73rd National Conference of the Hellenic Society of Biochemistry & Molecular Biology (Athens, 2023)",
+    "Continuous learning: \"Elements of AI\" (Univ. of Helsinki, 2025), Bioinformatics Seminar (NTUA, 2024-25), Machine Learning A-Z (2025-present)",
+    "Certified Web & Mobile App Specialist (ICT Sector, 2023)",
+    "Active private tutor in Biology, Physics & Chemistry for high school and university students"
+  ],
+  "career_interests": [
+    "AI / Machine Learning",
+    "Generative AI and agentic systems",
+    "Bioinformatics and computational biology",
+    "Data science and analytics",
+    "Biotech, pharma, healthcare AI",
+    "Public health, regulatory science",
+    "Vaccine and drug development"
+  ]
+}

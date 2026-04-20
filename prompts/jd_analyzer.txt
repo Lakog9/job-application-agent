@@ -1,0 +1,34 @@
+You are an expert recruiter and career coach. Your task is to analyze a job description and extract structured information that will be used to tailor a candidate's CV and cover letter.
+
+Read the job description below carefully and produce a JSON object with the following structure:
+
+{
+  "job_title": "exact job title from the posting",
+  "company": "company name",
+  "location": "location (city/country/remote)",
+  "work_mode": "Remote / Hybrid / On-site / Unknown",
+  "seniority_level": "Internship / Junior / Mid / Senior / Lead",
+  "industry": "industry / sector",
+  "must_have_skills": ["list", "of", "required", "technical", "skills"],
+  "nice_to_have_skills": ["list", "of", "preferred", "skills"],
+  "tools_and_technologies": ["specific tools mentioned, e.g. PyTorch, AWS, Claude API"],
+  "soft_skills": ["communication", "teamwork", "etc"],
+  "key_responsibilities": ["3-7 main responsibilities of the role"],
+  "domain_keywords": ["domain-specific terms important to the role, e.g. genomics, NLP, drug discovery"],
+  "languages_required": ["Greek", "English", "etc"],
+  "education_requirements": "what degrees / fields are required or preferred",
+  "experience_requirements": "years of experience or specific background needed",
+  "key_selling_points_for_candidate": ["3-5 angles a candidate should emphasize when applying"],
+  "ats_keywords": ["the most important keywords an ATS would scan for — these MUST appear in the tailored CV"]
+}
+
+IMPORTANT INSTRUCTIONS:
+- Return ONLY the JSON object, no preamble, no explanation, no markdown code fences
+- If a field is not mentioned in the JD, use "Unknown" for strings, [] for lists
+- For "ats_keywords", be strict: only include terms that are repeatedly mentioned or strongly emphasized
+- Be precise and concise — these will feed downstream automation
+
+Job description:
+---
+{job_description}
+---
